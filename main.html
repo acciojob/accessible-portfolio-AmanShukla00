@@ -1,16 +1,59 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <!-- Navigation Bar -->
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About</a></li>
+            <li role="listitem"><a href="#skills">Skills</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Portfolio Heading -->
+    <h1 role="heading">Welcome to My Portfolio</h1>
+
+    <!-- Profile Image -->
+    <img role="img" src="profile.jpg" alt="Profile picture of [Your Name]" width="200">
+
+    <!-- About Section -->
+    <section id="about">
+        <p>Hello! I'm [Your Name], a passionate web developer with a focus on accessibility and user-friendly designs.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 role="heading">Skills</h2>
+        <ul role="list">
+            <li role="listitem">HTML</li>
+            <li role="listitem">CSS</li>
+            <li role="listitem">JavaScript</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 role="heading">Projects</h2>
+        <ul role="list">
+            <li role="listitem">Project 1: Accessible Web Design</li>
+            <li role="listitem">Project 2: Interactive UI Components</li>
+            <li role="listitem">Project 3: Real-time Chat Application</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 role="heading">Contact</h2>
+        <p>Feel free to connect with me on <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>.</p>
+    </section>
 
 </body>
-
 </html>
